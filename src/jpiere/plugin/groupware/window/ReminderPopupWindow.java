@@ -97,6 +97,8 @@ import jpiere.plugin.groupware.util.GroupwareToDoUtil;
 public class ReminderPopupWindow extends Window implements EventListener<Event> ,ValueChangeListener {
 
 
+	private static final long serialVersionUID = -476934773914483304L;
+
 	private static final CLogger log = CLogger.getCLogger(ReminderPopupWindow.class);
 
 	private Properties ctx = null;
